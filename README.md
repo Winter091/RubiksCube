@@ -1,2 +1,2 @@
 # RubiksCube
-Console-based implementation of rubik's cube rotations
+It based on rubik's cube model from https://rubiks-cube-solver.com/.
