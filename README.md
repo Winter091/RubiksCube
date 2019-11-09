@@ -18,32 +18,7 @@ Cube has 6 colors:
 ## You can make moves using this syntax:
 
 ```
-// 3 is side length
-Cube c = new Cube(3);
-c.move(Cube.MOVES.UP);
+c.move("U D L R F B U' D' L' R' F' B'");
 ```
 
-`MOVES` is a static enumaration of the class `Cube`
 
-`MOVES` contains:
-- UP
-- DOWN
-- LEFT
-- RIGHT
-- FRONT
-- BACK
-
-and other 6 field with `R` in the beginning (Stands for **Reverse**)
-
-## Example:
-
-```
-Cube c = new Cube(3);
-c.move(Cube.MOVES.UP);
-c.move(Cube.MOVES.RRIGHT);
-c.print();
-```
-
-It will execute `U R'` and output the cube in console:
-
-![](img/2.png)
