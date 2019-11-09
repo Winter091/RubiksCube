@@ -4,7 +4,16 @@ It based on rubik's cube model from https://rubiks-cube-solver.com/.
 
 ## You can show the cube in the console using `print()` method
 
-![alt test](images/1.png)
+Cube has 6 colors:
+- White
+- Orange
+- Green  
+- Red
+- Blue
+- Yellow
+
+![](img/1.png)
+
 
 ## You can make moves using this syntax:
 
@@ -34,3 +43,7 @@ c.move(Cube.MOVES.UP);
 c.move(Cube.MOVES.RRIGHT);
 c.print();
 ```
+
+It will execute `U R'` and output the cube in console:
+
+![](img/2.png)
